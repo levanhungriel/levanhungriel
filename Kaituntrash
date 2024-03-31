@@ -1,0 +1,89 @@
+_G.KaitunConfig = {
+	["Auto Boost FPS"] = true,
+	["Skip Level Farm"] = true,
+	["Fast Attack Mode"] = "Fast Attack", -- "Fast Attack" , "More Then old Fast Attack" 
+	["Hop If Can't Kill Player"] = true,
+	["Block All Hop"] = false,
+	
+	["Start Kaitun"] = true,
+	-- World 1
+	["Auto Pole"] = true, -- 
+	["Auto Saber"] = true,
+	["Auto Second World"] = true,
+	-- World 2
+	["Auto Rengoku"] = true,
+	["Auto Quest Flower"] = true,
+	["Auto V3 Race"] = true,
+	["Auto Bartilo"] = true,
+	["Auto Cursed Captain"] = false,
+	["Auto Darkbeard"] = true,
+	["Auto Factory"] = true,
+	["Auto Third World"] = true,
+	["Skip Get Item Guitar"] = true, --   soul guiter  2   will not find item until get all item for do soul guiter ( open recommend  )
+	["Allise Fruit"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- 3
+	-- World 3
+	["Auto Hallow Scythe"] = true,
+	["Auto Buddy Sword"] = true,
+	["Auto Dough King"] = true,
+	["Auto Spikey Trident"] = true,
+	["Auto Tushita"] = true,
+	["Auto Elite Hunter"] = true,
+	["Auto rip Indra"] = true,
+	["Auto Yama"] = true,
+	["Auto Canvander"] = true,
+	["Auto Soul Guitar"] = true, 
+	["Auto Rainbow Haki"] = true,
+	["Auto Cursed Dual Katana"] = true,
+	
+	-- Fighting Style 
+	
+	["Auto God Human"] = true,
+	["Auto Superhuman"] = true,
+	["Auto Death Step"] = true,
+	["Auto Sharkman Karate"] = true,
+	["Auto Electric Claw"] = true,
+	["Auto Dargon Talon"] = true,
+	
+	["Auto Mastery Devil Fruit"] = true,
+	["Skill Setting"] = { --  mode auto
+		-- ["Z"] = 0.1,
+		-- ["X"] = 0.1,
+		-- ["C"] = 0.1,
+		-- ["V"] = 0.1, -- 
+	},
+	["Auto Mastery Sword"] = true,
+	["Sword Rarity Select"] = {"Mythical","Legendary"}, -- Common , Uncommon,Rare,Legendary,Mythical
+
+	["Select Redeem Code Level"] = 5,
+
+	-- Raids
+
+	["Select Rate Fruit Rais"] = 1000000, -- if fruit price less u rate then we use it to auto raids
+	["Limit Raids Fragments"] = 100000,
+
+	-- Devil Fruit
+
+	["Select Main Devil Fruit Sniper"] = {"Dragon-Dragon","Spirit-Spirit","Venom-Venom","Dough-Dough"}, -- 
+	["Select Sub Devil Fruit Sinper"] = {""}, -- 
+	["Allow Eat Fruit In Inventory"] = false,
+	["Start Sniper"] = true,
+
+	-- RAM
+
+	["RAM Port"] = 7963,
+	["RAM Password"] = "",
+	["Auto Set Description"] = false,
+
+	-- Webhook
+
+	["Start Webhook"] = true,
+	["Link Webhook"] = "https://discord.com/api/webhooks/1188264966512459786/Ov-GLqNYcX0tQduub9R5TloUx2dtmzFvWDGnli0NXr8iSeKnJCFFhNtMvgbKKwckLy2y",
+	["Mode Webhook"] = "Send On Level Max", -- "Send Every 10 min","Send On Level Max","Send On Level Max And Every 10 min"
+
+	-- CPU
+	
+	["Select Lock Fps"] = 5,
+	["Lock Fps Now"] = true,
+	["White Screen"] = true,
+}
+_G.Key = "GJF16-PNEIJ-GOWHL" _G.DiscordId = "1021335705399603210" loadstring(game:HttpGet("https://raw.githubusercontent.com/Natsuhanaki/Royx_PC/main/loader.lua"))();
